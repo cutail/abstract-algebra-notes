@@ -1,0 +1,24 @@
+complements：
+
+  1. suppose G is a group， denote: C（G） = { a in G | ag = ga for any g in G}；
+    is called the center of group G。 prove that C（G）is a normal subgroup of G。
+    prove： for any g in G， h in C（G）:
+            we have ghg-1 = hgg-1 = h which belongs to C(G). so that C(G) is normal subgroup.
+            
+  2. suppose G = { <Q, +> } , H = {<Z, +>}
+     1) prove that H is a normal subgroup of G.
+     2) calculate G/H
+     3) calculate (2/3 + H) + (5/6 + H)
+     4) calculate the order of every element in G/H
+     
+     prove: 1) for any q in Q, h in Z.  q + h + (-q) = h + q + (-q) = h belongs to H
+                by definition, H is normal subgroup.
+            2) a/b + H  0 < a <= b , a, b belongs to Z.
+                G/H = {H, 1/2H, 1/3H, 2/3H, 1/4H,.....}.
+            3) 1/2H
+            4) the order of a/bH is b.
+            
+  3. let A,B be the subgroup of G. AB = {ab | a in A, b in B},prove that AB is subgroup <=> AB = BA
+      
+  4. if one of A, B is normal subgroup, then AB is subgroup of G 
+  5. if A and B are normal subgroup, the AB is normal subgroup of G
